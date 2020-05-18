@@ -1,10 +1,16 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+import Jumbotron from "./components/Jumbotron";
+import Table from "./components/Table";
 
 class App extends Component {
   render() {
-    return <div>react app</div>;
+    return (
+      <div className="container">
+        <Jumbotron />
+        <Table />
+      </div>
+    );
   }
 }
 

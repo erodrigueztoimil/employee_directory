@@ -51,3 +51,5 @@ You are required to submit the following:
 
 * the URL to the Github repository
 
+## Deployed App
+You can find the deployed app [here](https://react-employee-directory-homework.netlify.app/)
